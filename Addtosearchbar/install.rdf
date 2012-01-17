@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>taghelper@xuldev.org</em:id>
+		<em:type>2</em:type>
+		<em:name>Add to Searchbar</em:name>
+		<em:version>0.1</em:version>
+		<em:description>Add keywords to search bar.</em:description>
+		<em:creator>TomasGardenfields</em:creator>
+		<em:homepageURL>http://www.xuldev.org/misc/sd.php</em:homepageURL>
+		
+		<em:localized>
+			<Description>
+				<em:locale>ja</em:locale>
+				<em:name>キーワード追加</em:name>
+				<em:description>選択範囲を検索バーのキーワードに追加します。</em:description>
+				<em:creator>TomasGardenfields</em:creator>
+			</Description>
+		</em:localized>
+		
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>3.0</em:minVersion>
+				<em:maxVersion>9.0.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+	</Description>
+
+</RDF>
+
