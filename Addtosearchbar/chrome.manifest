@@ -1,2 +1,8 @@
-content  addtosearchbar  content/
-overlay  chrome://browser/content/browser.xul  chrome://addtosearchbar/content/overlay.xul
+content	Addtosearchbar	chrome/content/
+skin	Addtosearchbar	classic/1.0	chrome/skin/
+
+overlay	chrome://browser/content/browser.xul	chrome://Addtosearchbar/content/overlay.xul
+style	chrome://browser/content/browser.xul	chrome://Addtosearchbar/skin/addtosearchbar.css
+
+locale	Addtosearchbar	ja	chrome/locale/ja/
+locale	Addtosearchbar	en	chrome/locale/en/

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://Addtosearchbar/skin/addtosearchbar.css" type="text/css"?>
+
+<!DOCTYPE window [
+<!ENTITY % mainDTD SYSTEM "chrome://Addtosearchbar/locale/main.dtd" >
+%mainDTD;
+]>
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://addtosearchbar/content/overlay.js" />
+	<popup id="contentAreaContextMenu">
+		<menuseparator/>
+		<menuitem id="addtosearchbar-menu"
+			label="&popup.contextmenu.search.label;"
+			oncommand="Addtosearchbar.AddKeywords();"
+			class="menuitem-iconic" src="chrome://Addtosearchbar/skin/1326873490_plus_16.jpg" />
+		<menuitem id="addtosearchbar-menuEow"
+			label="&popup.contextmenu.search.labelEow;"
+			oncommand="Addtosearchbar.doSearchKeywordsEow();" />
+		<menuseparator/>
+	</popup>
+</overlay>

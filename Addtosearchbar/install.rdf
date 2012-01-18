@@ -4,13 +4,13 @@
 	xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
 	<Description about="urn:mozilla:install-manifest">
-		<em:id>taghelper@xuldev.org</em:id>
+		<em:id>Addtosearchbar@xuldev.org</em:id>
 		<em:type>2</em:type>
 		<em:name>Add to Searchbar</em:name>
 		<em:version>0.1</em:version>
 		<em:description>Add keywords to search bar.</em:description>
 		<em:creator>TomasGardenfields</em:creator>
-		<em:homepageURL>http://www.xuldev.org/misc/sd.php</em:homepageURL>
+		<em:homepageURL>https://github.com/TomasGardenfields</em:homepageURL>
 		
 		<em:localized>
 			<Description>
