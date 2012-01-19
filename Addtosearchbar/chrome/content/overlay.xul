@@ -11,15 +11,14 @@
 <overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 	<script type="application/x-javascript" src="chrome://addtosearchbar/content/overlay.js" />
 	<menupopup id="contentAreaContextMenu">
-		<menuseparator/>
 		<menuitem id="addtosearchbar-menu"
 			label="&popup.contextmenu.search.label;"
 			oncommand="Addtosearchbar.AddKeywords();"
 			class="menuitem-iconic" />
+		<menuseparator id="addtosearchbar-sep" />
 		<menuitem id="addtosearchbar-menuEow"
 			label="&popup.contextmenu.search.labelEow;"
 			oncommand="Addtosearchbar.doSearchKeywordsEow();"
 			class="menuitem-iconic" />
-		<menuseparator/>
 	</menupopup>
 </overlay>
