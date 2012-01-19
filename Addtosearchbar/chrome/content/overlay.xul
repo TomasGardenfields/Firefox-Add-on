@@ -1,5 +1,4 @@
 <?xml version="1.0"?>
-<?xml-stylesheet href="chrome://Addtosearchbar/skin/addtosearchbar.css" type="text/css"?>
 
 <!DOCTYPE window [
 <!ENTITY % mainDTD SYSTEM "chrome://Addtosearchbar/locale/main.dtd" >
@@ -8,7 +7,7 @@
 
 <overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 	<script type="application/x-javascript" src="chrome://addtosearchbar/content/overlay.js" />
-	<popup id="contentAreaContextMenu">
+	<menupopup id="contentAreaContextMenu">
 		<menuseparator/>
 		<menuitem id="addtosearchbar-menu"
 			label="&popup.contextmenu.search.label;"
@@ -18,5 +17,5 @@
 			label="&popup.contextmenu.search.labelEow;"
 			oncommand="Addtosearchbar.doSearchKeywordsEow();" />
 		<menuseparator/>
-	</popup>
+	</menupopup>
 </overlay>
