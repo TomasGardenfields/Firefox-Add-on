@@ -1,5 +1,5 @@
 content	Addtosearchbar	chrome/content/
-skin	Addtosearchbar	classic/1.0	chrome/skin/
+skin	Addtosearchbar	classic/1.0	chrome/skin/classic/
 
 overlay	chrome://browser/content/browser.xul	chrome://Addtosearchbar/content/overlay.xul
 

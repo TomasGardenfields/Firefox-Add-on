@@ -1,5 +1,0 @@
-@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
-
-.addtosearchbar-icon-contextmenu-add {
-  list-style-image: url("chrome://Addtosearchbar/skin/ietab-engine-ie.png");
-}

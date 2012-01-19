@@ -1,0 +1,9 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+menuitem#addtosearchbar-menu {
+  list-style-image: url("chrome://Addtosearchbar/skin/1326873490_plus_16.jpg");
+}
+
+menuitem#addtosearchbar-menuEow {
+  list-style-image: url("chrome://Addtosearchbar/skin/eow_menu_16.png");
+}
